@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#welcome-section {
+  background: url('img/66-663189_purple-space-background.jpg');
+  height: 100vh;
+  width: 100%;
+}
+
+.box1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.white {
+color: white;
+font-size: 4rem;
+margin-left: 200px;
+}
+
+.purple {
+  color: #8000FF;
+  font-size: 4rem;
+  margin-left: 220px;
+}
+
+#icon {
+  color: #8000FF;
+  font-size: 2.8rem;
+  margin-left: 10px;
+  margin-top: 10px;
+  position: fixed;
+  z-index: 50;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+#navbar {
+  background: #8000ffa1;
+  position: fixed;
+  z-index: 1;
+  transition:ease-in-out 1s;
+  overflow-x: hidden;
+  
+}
+
+.sidebar-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  gap: 30px;
+  font-size: 3rem;
+ 
+}
+
+#second-bg {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#second-bg::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('img/66-663189_purple-space-background.jpg');
+  transform: scaleX(-1) rotate(180deg);
+  z-index: -1;
+}
+
+h1 {
+  color: #8000FF;
+  font-size: 3rem;
+}
+
+#projects{
+  height: 100vh;
+  background-image: url('img/66-663189_purple-space-background.jpg');
+}
+
+#last-bg {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+#last-bg::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('img/66-663189_purple-space-background.jpg');
+  transform: scaleX(-1) rotate(180deg);
+  z-index: -1;
+}
+
+#jb {
+  width: 400px;
+  height: 300px;
+}
+
+h3 {
+  color: white;
+  font-size: 2rem;
+}
+
+.full {
+  width: 100%;
+  display: flex;
+}
+
+.left {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#third-bg {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.third-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  width: 70%;
+  height: 70vh;
+}
+
+.box4 {
+  background: rgba(0, 0, 0, 0.541);
+  height: 40vh;
+  width: 100%;
+  text-align: center;
+}
+
+.neråt {
+  margin-top: 30px;
+}
